@@ -1,0 +1,15 @@
+Install ST-Link Drivers
+Install ST-Link Utility
+Connect ST-Link to Creality Board J201 as per pictures. 
+(Creality PCB J201 Zoom.jpg, ST-Link Wires 1.jpg and ST-Link Wires2.jpg)
+Short the connections to J202 (Orange/Yellow wires)
+(Creality PCB CPU Reset.jpg)
+Start ST-Link software
+Adjust Target -> Settings to Mode 'Connect Under Reset'
+(ST-Link Settings.jpg)
+Power On PCB
+ST-Link SW Target -> Connect
+While LED on ST-Link is blinking remove short on J202
+ST-Link SW should now connect.
+You should now be able to dump/flash firmware
+See STM32F401xE Flash Layout.jpg for details.
