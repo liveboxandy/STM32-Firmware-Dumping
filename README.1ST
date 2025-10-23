@@ -1,7 +1,11 @@
 Install ST-Link Drivers
 Install ST-Link Utility
 Connect ST-Link to Creality Board J201 as per pictures. 
-(Creality PCB J201 Zoom.jpg, ST-Link Wires 1.jpg and ST-Link Wires2.jpg)
+From left to Right. Black,White,Grey,Purple on PCB
+                    Gnd  , Clk ,DIO ,Power
+To ST-Link Pins      10  ,  9  , 7  , 1
+(Creality PCB J201 Zoom.jpg, Creality PCB Serial & USB & Programming.png,
+ST-Link Wires 1.jpg, ST-Link Wires2.jpg, ST-Link V2 Pinout.png )
 Short the connections to J202 (Orange/Yellow wires)
 (Creality PCB CPU Reset.jpg)
 Start ST-Link software
